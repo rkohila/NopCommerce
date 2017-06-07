@@ -10,4 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/feature",
         tags = "@validation")
 public class NopCommerceRunner {
+
+    // nothing to commit
 }
