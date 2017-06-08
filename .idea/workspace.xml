@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f8328d-f72b-48e5-9b21-8b69b784d9a7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/feature/nopCommerceWishlist.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/feature/nopCommerceSearch.feature" afterPath="$PROJECT_DIR$/src/test/resources/feature/nopCommerceSearch.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NopCommerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +50,10 @@
     <file path="/nopRegistration.feature" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496786309285" ignored="false" />
     <file path="/RegistrationSteps.java" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496785271418" ignored="false" />
     <file path="/NopCommerceRunner.java" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496947547555" ignored="false" />
-    <file path="/Dummy.txt" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496947539321" ignored="false" />
+    <file path="/Dummy.txt" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496955443997" ignored="false" />
+    <file path="/nopCommerceProductSearch.feature" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496956198806" ignored="false" />
+    <file path="/nopCommerceSearch.feature" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496956450716" ignored="false" />
+    <file path="/nopCommerceWishlist.feature" changelist="14f8328d-f72b-48e5-9b21-8b69b784d9a7" time="1496956713172" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,21 +136,37 @@
       <file leaf-file-name="nopRegistration.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopRegistration.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="17" column="26" selection-start="0" selection-end="512" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NopCommerceRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1496786319000" expanded="true" signature="38:167" placeholder="Background" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NopCommerceRunner.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java">
+      <file leaf-file-name="nopCommerceSearch.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceSearch.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26209047">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="6" column="38" selection-start="0" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nopCommerceWishlist.feature" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceWishlist.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="70" selection-start="227" selection-end="227" vertical-scroll-proportion="0.20338982">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,15 +184,6 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/test/RandomTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="18" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NopRegisterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/test/NopRegisterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="84" selection-start="1809" selection-end="1834" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -222,9 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/nop/pages/NopBillingPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nop/pages/NopCheckoutPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nop/util/NopSessionData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nop/pages/NopProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nop/pages/NopHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nop/test/Feature/Nop/nop.feature" />
@@ -238,6 +247,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/feature/nopCommerceLogin.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/feature/nopRegistration.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/nopCommerceProductSearch.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/nopCommerceSearch.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/nopCommerceWishlist.feature" />
       </list>
     </option>
   </component>
@@ -292,6 +304,78 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feature" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NopCommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -320,26 +404,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NopCommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NopCommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NopCommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -351,7 +415,7 @@
     <property name="options.lastSelected" value="MavenSettings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Library/Mail/V4/78B3261C-AA30-4E55-81FE-FBEEB32D0E17/[Gmail].mbox/All Mail.mbox/B118DDF5-93B6-46F4-B0EF-0C87E2512F30/Data/6/3/1/Attachments/136010/1/NopCommerce/src/test/java/com/nop/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -359,9 +423,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.NopCommerceRunner">
     <configuration default="false" name="RandomTest.rTest" type="JUnit" factoryName="JUnit" temporary="true">
@@ -503,6 +567,35 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="GLUE" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -529,35 +622,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="GLUE" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -700,9 +764,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1420" height="810" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -719,7 +783,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26419213" sideWeight="0.6710145" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2838428" sideWeight="0.40895954" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2838428" sideWeight="0.67052025" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46231884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -794,16 +858,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="21" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="307" selection-end="307" vertical-scroll-proportion="0.13186814" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.2/cucumber-java-1.2.2.jar!/cucumber/api/java/Before.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="24" selection-start="225" selection-end="297" vertical-scroll-proportion="0.11302983" />
@@ -859,26 +913,10 @@
         <state line="8" column="18" selection-start="308" selection-end="308" vertical-scroll-proportion="-0.22033899" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceLogin.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/stepDefn/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="76" selection-start="1930" selection-end="1937" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopRegistration.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1496786319000" expanded="true" signature="38:167" placeholder="Background" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,10 +927,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nop/NopCommerceRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="354" selection-end="354" vertical-scroll-proportion="0.26209047">
+        <state line="18" column="8" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceLogin.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopRegistration.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="26" selection-start="0" selection-end="512" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="0" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/nopCommerceWishlist.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="70" selection-start="227" selection-end="227" vertical-scroll-proportion="0.20338982">
+          <folding />
         </state>
       </provider>
     </entry>
