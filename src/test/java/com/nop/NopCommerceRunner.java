@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(glue = "com.nop.stepDefn",
         features = "src/test/resources/feature",
         tags = "@validation",
-           format = { "pretty", "html:target/cucumber"})
+           format = { "pretty", "html:target/cucumber", "json:target/cucumber.json"})
 public class NopCommerceRunner {
 
     // nothing to commit
