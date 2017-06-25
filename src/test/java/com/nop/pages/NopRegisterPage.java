@@ -25,12 +25,6 @@ public class NopRegisterPage {
     {
         this.driver = driver;
         wait=new WebDriverWait(driver,30);
-//        boolean isRegisteredPageLoaded = driver.findElement(By.cssSelector(".page-body")).isDisplayed();
-//        System.out.println("isRegisteredPageLoaded = " + isRegisteredPageLoaded);
-
-//        Assert.assertTrue("Registered page not loaded properly",isRegisteredPageLoaded);
-
-//        Assert.assertEquals("Registered page not loaded properly", true, isRegisteredPageLoaded);
         }
 
 

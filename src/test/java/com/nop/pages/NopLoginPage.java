@@ -3,6 +3,7 @@ package com.nop.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.HashMap;
@@ -17,8 +18,19 @@ import java.util.Map;
  */
 public class NopLoginPage {
 
+    @FindBy( id = "Email")
+    private WebElement userNameTxt;
+
+    @FindBy( id = "Password")
+    private WebElement passwordTxt;
+
+
+    @FindBy( css = ".button-1.login-button")
+    private WebElement submitBtn;
+
 
     private WebDriver driver;
+
     WebDriverWait wait;
 
     public NopLoginPage(WebDriver driver) {
@@ -27,10 +39,18 @@ public class NopLoginPage {
     }
 
 
-    public void enterLoginDetail(String email, String password) {
+   /* public void enterLoginDetail(String email, String password) {
         driver.findElement(By.id("Email")).sendKeys(email);
         driver.findElement(By.id("Password")).sendKeys(password);
         driver.findElement(By.cssSelector(".button-1.login-button")).click();
+
+    }*/
+
+
+    public void enterLoginDetail(String email, String password) {
+        userNameTxt.sendKeys(email);
+        passwordTxt.sendKeys(password);
+        submitBtn.click();
 
     }
 
